@@ -23,8 +23,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install required packages
-        run: |
-          python3 -m pip install --upgrade pip
+        run: python3 -m pip install --upgrade pip
 
 
       - name: Run RANGROK.py
