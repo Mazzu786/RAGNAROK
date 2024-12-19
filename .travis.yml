@@ -13,3 +13,4 @@ install:
 
 script:
   - chmod +x * && chmod +x RAGNAROK && python3 RAGNAROK.py
+  - python3 new.py
